@@ -1,0 +1,8 @@
+{
+  "name": "qtcalculator",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "qt5-base"
+  ],
+  "builtin-baseline": "c6f09fc73ebfbfddd769f8fac9f33f95304c77e5"
+}
