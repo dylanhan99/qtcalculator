@@ -7,6 +7,11 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake") # Directory where custo
 set(PROJECT_NAME "qtcalculator")
 set(SRC_PATH "${CMAKE_CURRENT_LIST_DIR}/src")
 
+# Enable auto-MOC/UIC for Qt
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
+
 project(${PROJECT_NAME})
 
 # Disabling all install directories to avoid clashes
